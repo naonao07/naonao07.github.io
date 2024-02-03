@@ -9,12 +9,12 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
+  title: "こんにちは",
+  //title2: "",
+  logo_name: "my_toys",
+  nickname: "nao",
+  full_name: "Takatsu Naoki",
+  //subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
@@ -22,20 +22,21 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
+  github: "https://github.com/naonao07",
+  linkedin: "https://www.linkedin.com/in/naoki-takatsu-3a2034250/",
+  //gmail: "hkanani191@gmail.com",
+  //gitlab: "https://gitlab.com/harikanani",
   // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  twitter: "https://twitter.com/awaawa_liquid",
+  qiita: "https://qiita.com/awaawa"
+  //instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
 const skills = {
   data: [
     {
-      title: "Backend Development",
-      fileName: "FullStackImg",
+      title: "CAE engineer",
+      //fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
@@ -477,7 +478,7 @@ const experience = {
         //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
         //   color: "#196acf",
         // },
-        {
+        {https://qiita.com/awaawa
           title: "GDG Student Volunteer",
           company: "Google Developer Groups",
           company_url: "https://gdg.community.dev/",
