@@ -27,8 +27,8 @@ const socialMediaLinks = {
   //gmail: "hkanani191@gmail.com",
   //gitlab: "https://gitlab.com/harikanani",
   // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/awaawa_liquid",
-  qiita: "https://qiita.com/awaawa"
+  //twitter: "https://twitter.com/awaawa_liquid",
+  //qiita: "https://qiita.com/awaawa"
   //instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
