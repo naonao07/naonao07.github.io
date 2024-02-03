@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "こんにちは",
+  title: "hello",
   //title2: "",
   logo_name: "my_toys",
   nickname: "nao",
