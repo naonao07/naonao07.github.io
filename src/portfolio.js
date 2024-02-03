@@ -478,7 +478,7 @@ const experience = {
         //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
         //   color: "#196acf",
         // },
-        {https://qiita.com/awaawa
+        {
           title: "GDG Student Volunteer",
           company: "Google Developer Groups",
           company_url: "https://gdg.community.dev/",
