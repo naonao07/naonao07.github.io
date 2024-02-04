@@ -2361,10 +2361,10 @@ input, select, textarea {
 		
 		/* 通常のスタイル */
 		ul.icons li .hoverable-image {
-			transform: translateY(14px); /* 垂直方向に5ピクセル動かす（適宜調整） */
+			transform: translateY(13px); /* 垂直方向に5ピクセル動かす（適宜調整） */
 			display: flex;
-			width: 48px;
-			height: 48px;
+			width: 40px;
+			height: 40px;
 			filter: grayscale(0%);
 			transition: filter 0.5s ease; /* ホバーエフェクトをスムーズにする */
 		}
