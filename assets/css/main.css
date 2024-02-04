@@ -2351,7 +2351,24 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
+			margin: 10 10px; /* アイコン間の横のマージンを調整 */
+    		align-items: center; /* 親要素（li）内で画像を垂直方向に一番上に配置 */
 		}
+
+		ul.icons li .image-link:hover .hoverable-image {
+			filter: hue-rotate(90deg); /* 色相を90度回転（青みがかる） */
+		}
+		
+		/* 通常のスタイル */
+		ul.icons li .hoverable-image {
+			transform: translateY(14px); /* 垂直方向に5ピクセル動かす（適宜調整） */
+			display: flex;
+			width: 48px;
+			height: 48px;
+			filter: grayscale(0%);
+			transition: filter 0.5s ease; /* ホバーエフェクトをスムーズにする */
+		}
+
 
 			ul.icons li:last-child {
 				padding-right: 0;
@@ -3950,3 +3967,19 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* 
+		.image-link:hover .hoverable-image {
+			filter: hue-rotate(90deg); /* 色相を90度回転（青みがかる） 
+		  }
+		  
+		  /* 通常のスタイル 
+		  .hoverable-image {
+			display: flex;
+			align-items: flex-start; /* 画像を垂直方向に一番上に配置 
+			width: 40px;
+			height: 40px;
+			filter: grayscale(0%);
+			transition: filter 0.3s ease; /* ホバーエフェクトをスムーズにする 
+		  }
+		   */
