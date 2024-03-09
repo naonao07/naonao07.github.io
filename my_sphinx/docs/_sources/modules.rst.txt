@@ -1,0 +1,6 @@
+my_sphinx
+=========
+
+.. toctree::
+   :maxdepth: 4
+
