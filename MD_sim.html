@@ -41,7 +41,7 @@
 					</nav>
 
 				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->a
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
@@ -51,8 +51,8 @@
 								<h1>Molecular Dynamics Simulation</h1>
 							</header>
 							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
+								<p>分子力場の設定方法から、実際に液体物性を求めるまでのHands onを作成しています<br />
+								</p>
 							</div>
 						</div>
 					</section>
@@ -64,9 +64,14 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>LAMMPS</h2>
+										<h2>分子力場と割り当て方法</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+									<p>液体の計算に使用される分子力場には様々な種類があります。例えば、<a href="https://pubs.acs.org/doi/abs/10.1021/ja00214a001">OPLS力場</a>や<a href="http://trappe.oit.umn.edu/">TraPPE力場</a>などがあります。LAMMPSを使った分子動力学シミュレーションを行う際にはこれらの分子力場で指定される力場パラメータを事前に全原子に割り当てなければなりません。<br>　この割り当ては大変面倒なのですが、有志の方々（または企業）がとても有用な割り当てツールを作ってくれています。 <br>・<a href="https://zarbi.chem.yale.edu/ligpargen/">ligpergen</a> <br>・<a href="https://moltemplate.org/">moltemplate</a> <br>・<a href="http://polypargen.com/">polypergen</a> <br>・<a href="https://winmostar.com/jp/">winmostar</a> </p>
+									<p>それぞれの割り当てツールの使い方について、以下で纏めています。
+
+									<ul class="actions">
+										<li><a href="https://naonao07.github.io/my_sphinx/" class="button">Learn more</a></li>
+									</ul>
 								</div>
 							</section>
 
@@ -81,9 +86,12 @@
 											<header class="major">
 												<h3>バルクの解析</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>液体のバルク状態をMDによって再現する方法と、解析が可能な物理量について紹介します。まず"バルク状態"とはどんな意味でしょうか。<blockquote>バルク(Bulk)<br>"物体や流体のうち、界面に触れていない部分のこと。界面付近における物質の性質は隣り合う物質によって変化するため、一般にはバルクが備える性質がその物質の固有の性質であるとされている。バルク状態はその物質のもつ基本的な性質、沸点や融点、粘度や密度などの値を決定する重要な部分であるとともに、特異な性質を発現させるためにバルク部分を極端に減らし界面を増やすことも頻繁に行われる。物体の、界面や境膜、物質表面などと対になる部分であり、ある物質の物性といえばバルク部分が持つ性質を指す。主に界面化学、移動現象論、物性物理などで用いられる用語である。"<a href="https://www.comtec.daikin.co.jp/SC/glossary/bulk.html"><br>ダイキン工業　分子シミュレーション＆インフォマティクス 用語解説より引用</a> </blockquote></blockquote></p>
+											
+											<p>バルク状態は、界面に触れていない部分であり、液体自体の性質を決める状態なのだそうです。ここで面白いのは、溶液で起こるような凝集状態でも他物質との明確な界面がない場合はバルクと呼べそうなところです。</p>
+											<p>次に、バルク状態で解析したいのはどんな物理量でしょうか。</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://naonao07.github.io/my_sphinx/" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -99,7 +107,7 @@
 											</header>
 											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://naonao07.github.io/my_sphinx/" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -115,7 +123,7 @@
 											</header>
 											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 											<ul class="actions">
-												<li><a href="my_sphinx/" class="button">Learn more</a></li>
+												<li><a href="https://naonao07.github.io/my_sphinx/" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -146,7 +154,7 @@
 									</header>
 									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
+										<li><a href="https://naonao07.github.io/my_sphinx/" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
